@@ -1,0 +1,18 @@
+{
+  "title": "Matematika",
+  "questions": [
+    {
+      "id": "m1",
+      "type": "mcq",
+      "question": "Berapa 2 + 2?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2
+    },
+    {
+      "id": "m2",
+      "type": "essay",
+      "question": "Jelaskan pengertian bilangan prima.",
+      "answer": ""
+    }
+  ]
+}

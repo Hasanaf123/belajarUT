@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Operasi - BelajarUT</title>
+    <link rel="stylesheet" href="style_sistem_operasi.css" />
+  </head>
+  <body>
+    <header><p>💻 Soal Pilihan Ganda (Pilih Jawaban)</p></header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="logo">
+          <a href="../index.html">Kembali</a>
+        </h1>
+        <ul class="nav-links">
+          <li>
+            <a href="../mata-kuliah/semester2/mata_kuliah.html">Mata Kuliah</a>
+          </li>
+          <li>
+            <a href="../halaman_semester/semester.html">Semester</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="quiz-container">
+      <!-- Tombol kontrol semua jawaban -->
+
+      <div class="toggle-all-container">
+        <label class="toggle-switch">
+          <input type="checkbox" id="toggleAllCheckbox" />
+          <span class="slider"></span>
+          <span class="toggle-text" id="toggleLabel"></span>
+        </label>
+      </div>
+
+      <div class="quiz-title">
+        <h2>📘 Modul 1</h2>
+        <p>( Tes Formatif 1- 2 )</p>
+      </div>
+      <main class="quiz-container">
+        <!-- Soal 1 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">1.</span>
+            <p>Yang dimaksud sistem operasi adalah</p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span> Program sistem untuk menginput dan
+              mencetak data ke printer
+            </p>
+            <p>
+              <span class="label">b.</span> Lapisan antara prosesor dan
+              perangkat keras
+            </p>
+            <p>
+              <span class="label">c.</span> User interface antara pengguna
+              dengan software komputer
+            </p>
+            <p>
+              <span class="label">d.</span> Manajer sumber daya komputer yang
+              mengatur alokasi ke program dan pengguna
+            </p>
+          </div>
+          <button class="show-answer" data-id="1">Tampilkan Jawaban</button>
+          <div class="answer" id="answer1">
+            d. Manajer sumber daya komputer yang mengatur alokasi ke program dan
+            pengguna.
+          </div>
+        </div>
+
+        <!-- Soal 2 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">2.</span>
+            <p>
+              Tugas dari resource allocator atau resource manager pada Sistem
+              Operasi adalah
+            </p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span>mengalokasikan sumber daya komputer
+            </p>
+            <p>
+              <span class="label">b.</span> mengoperasikan aplikasi komputer
+            </p>
+            <p><span class="label">c.</span> mengontrol hardware komputer</p>
+            <p>
+              <span class="label">d.</span> menyimpan program dan data komputer
+            </p>
+          </div>
+          <button class="show-answer" data-id="2">Tampilkan Jawaban</button>
+          <div class="answer" id="answer2">
+            a. mengalokasikan sumber daya komputer
+          </div>
+        </div>
+
+        <!-- Soal 3 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">3.</span>
+            <p>
+              I/O controller, disk, printer, keyboard, mouse, webcam, USB
+              merupakan sumber daya hardware komputer yang bersifat
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span> Primer</p>
+            <p><span class="label">b.</span> Sekunder</p>
+            <p><span class="label">c.</span> Tersier</p>
+            <p><span class="label">d.</span> allocator</p>
+          </div>
+          <button class="show-answer" data-id="3">Tampilkan Jawaban</button>
+          <div class="answer" id="answer3">b. Sekunder</div>
+        </div>
+
+        <!-- Soal 4 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">4. </span>
+            <p>
+              Sistem komputer secara global terdiri dari empat komponen, yang
+              memiliki fungsi untuk menyelesaikan masalahnya menggunakan
+              komputer adalah....
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span> hardware</p>
+            <p><span class="label">b.</span> sistem Operasi</p>
+            <p><span class="label">c.</span> program Aplikasi</p>
+            <p><span class="label">d.</span> pemakai</p>
+          </div>
+          <button class="show-answer" data-id="4">Tampilkan Jawaban</button>
+          <div class="answer" id="answer4">d. Pemakai</div>
+        </div>
+
+        <!-- Soal 5 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">5.</span>
+            <p>
+              Komunikasi sistem operasi dengan perangkat I/O ini dapat
+              terlaksana berkat suatu kode program disebut?
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span> device driver</p>
+            <p><span class="label">b.</span> interface hardware</p>
+            <p><span class="label">c.</span> hardisk controller</p>
+            <p><span class="label">d.</span> I/0 controller</p>
+          </div>
+          <button class="show-answer" data-id="5">Tampilkan Jawaban</button>
+          <div class="answer" id="answer5">a. device driver</div>
+        </div>
+
+        <!-- Soal 6 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">6.</span>
+            <p>definisi sistem operasi sbagai kernel adalah</p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span> program yang terus menerus runing
+              selama komputer dihidupkan
+            </p>
+            <p>
+              <span class="label">b.</span> mengatur atau menjaga komputer dan
+              berbagai kejahatan komputer
+            </p>
+            <p>
+              <span class="label">c.</span> program yang digunakan untuk
+              mengontrol program lainnya
+            </p>
+            <p>
+              <span class="label">d.</span> kumpulan yang mengatur kerja
+              hardware
+            </p>
+          </div>
+          <button class="show-answer" data-id="6">Tampilkan Jawaban</button>
+          <div class="answer" id="answer6">
+            a. program yang terus menerus runing selama komputer dihidupkan
+          </div>
+        </div>
+
+        <!-- Soal 7 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">7.</span>
+            <p>tujuan dari sistem operasi adalah</p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span> sebagai antarmuka antara user dengan
+              hardware
+            </p>
+            <p>
+              <span class="label">b.</span> menunjukkan lingkungan dimana
+              seorang user dapat mengeksekusi program-programnya
+            </p>
+            <p>
+              <span class="label">c.</span> menyediakan fasilitas sistem operasi
+            </p>
+            <p>
+              <span class="label">d.</span> memungkinkan adanya pemakaian
+              bersama hardware maupun data antar user
+            </p>
+          </div>
+          <button class="show-answer" data-id="7">Tampilkan Jawaban</button>
+          <div class="answer" id="answer7">
+            b. menunjukkan lingkungan dimana seorang user dapat mengeksekusi
+            program-programnya
+          </div>
+        </div>
+
+        <!-- Soal 8 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">8.</span>
+            <p>
+              memori daan prosesor merupakan sumber daya hardware komputer yang
+              bersifat
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span> primer</p>
+            <p><span class="label">b.</span> sekunder</p>
+            <p><span class="label">c.</span> tersier</p>
+            <p><span class="label">d.</span> allocator</p>
+          </div>
+          <button class="show-answer" data-id="8">Tampilkan Jawaban</button>
+          <div class="answer" id="answer8">a. primer</div>
+        </div>
+
+        <!-- Soal 9 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">9.</span>
+            <p>perangkat I/O driver yang bersifat global adalah</p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span> generic devie driver</p>
+            <p><span class="label">b.</span> utility</p>
+            <p><span class="label">c.</span> harddisk controller</p>
+            <p><span class="label">d.</span> I/O controller</p>
+          </div>
+          <button class="show-answer" data-id="9">Tampilkan Jawaban</button>
+          <div class="answer" id="answer9">
+            a. perangkat I/O driver yang bersifat global adalah
+          </div>
+        </div>
+
+        <!-- Soal 10 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">10.</span>
+            <p>
+              jika ada seorang programmer mengembangkan aplikasi dengan kumpulan
+              instruksi-instruksi bahasa mesin yang akan mengontrol hardware
+              komputer, maka programmer tersebut membutuhkan suatu aplikasi
+              pemrograman yang disebut
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span> utility</p>
+            <p><span class="label">b.</span> allocator</p>
+            <p><span class="label">c.</span> program aplikasi</p>
+            <p><span class="label">d.</span> desainer S.O</p>
+          </div>
+          <button class="show-answer" data-id="10">Tampilkan Jawaban</button>
+          <div class="answer" id="answer10">a. utility</div>
+        </div>
+
+        <!-- soal no 11 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">11.</span>
+            <p>
+              program dimuat dalam memori dengan cara dijalankan per instruksi;
+              menekan tombol di console untuk menjalankan kesuluruhan program
+              disebut..
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span>serial processing</p>
+            <p><span class="label">b.</span>sistem batch sederhana</p>
+            <p><span class="label">c.</span>resident monitor</p>
+            <p><span class="label">d.</span>off-line processing</p>
+          </div>
+          <button class="show-answer" data-id="11">Tampilkan Jawaban</button>
+          <div class="answer" id="answer11">a.</div>
+        </div>
+        <!-- soal no 12 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">12.</span>
+            <p>
+              pengumpulan dari job-job yang sama dari satu angkatan merupakan
+              batch system. sistem batch yang merupakan program kecil yang
+              bersifat residen di memori berisi urutan-urutan job yang akan
+              berpindah otomatis disebut dengan..
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">b. </span> off-line processing</p>
+            <p><span class="label">a. </span> resident monitor</p>
+            <p><span class="label">c. </span> spooling</p>
+            <p><span class="label">d. </span> sistem multiprogramming</p>
+          </div>
+          <button class="show-answer" data-id="12">Tampilkan Jawaban</button>
+          <div class="answer" id="answer12">a.resident monitor</div>
+        </div>
+
+        <!-- soal no 13 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">13.</span>
+            <p>
+              overlap operasi antar I/O dengan CPU dapat dilakukan dengan cara
+              off-line processing. yang dimaksud offline processing adalah
+            </p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span>data-data dibaca dari card reader
+              tidak langsung dibawa ke CPU tetapi tersimpan terlebih dahulu pada
+              tape driver
+            </p>
+            <p>
+              <span class="label">b.</span>data dibaca secara langsung dari card
+              reader ke disk
+            </p>
+            <p>
+              <span class="label">c.</span>data dibaca dari card reader langsung
+              dibawa ke CPU
+            </p>
+            <p>
+              <span class="label">d.</span>data dari CPU dikirimkan ke line
+              printer untuk dicetak
+            </p>
+          </div>
+          <button class="show-answer" data-id="13">Tampilkan Jawaban</button>
+          <div class="answer" id="answer13">
+            a.data-data dibaca dari card reader tidak langsung dibawa ke CPU
+            tetapi tersimpan terlebih dahulu pada tape driver
+          </div>
+        </div>
+
+        <!-- soal no 14 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">14.</span>
+            <p>
+              job-job yang sudah berkelompok di pool (biasanya berada di disk)
+              akan dipilih untuk dijalankan secara berurutan dengan cara FIFO
+              (First in First out) disebut dengan
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span>spooling</p>
+            <p><span class="label">b.</span>sistem time-sharing</p>
+            <p><span class="label">c.</span>sistem terdistribusi</p>
+            <p><span class="label">d.</span>sistem multiprogram</p>
+          </div>
+          <button class="show-answer" data-id="14">Tampilkan Jawaban</button>
+          <div class="answer" id="answer14">d.sistem multiprogram</div>
+        </div>
+
+        <!-- soal no 15 -->
+        <div class="question">
+          <div class="soal-gambar">
+            <span class="nomor">15.</span>
+            <img
+              src="../img/soal_gambar/sistem_operasi/formatif15.jpeg"
+              alt="soal15"
+            />
+            <p>
+              beberapa job yang siap untuk dieksekusi dikumpulkan pada suatu
+              pool. sistem operasi mengambil beberapa job yang siap dieksekusi
+              untuk diletakkan di memori utama. jika job sedang dieksekusi
+              menunggu beberapa task (seperti masukkan keyboard, dll) maka
+              diganti dengan job berikutnya.
+              <br />
+              jika menggunakan sistem time-sharing dan quantum time sebesar 2
+              ms, maka lama waktu <br />
+              yang dibutuhkan untuk menyelesaikan proses p2 adalah
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span>10 ms</p>
+            <p><span class="label">b.</span>12 ms</p>
+            <p><span class="label">c.</span>14 ms</p>
+            <p><span class="label">d.</span>15 ms</p>
+          </div>
+          <button class="show-answer" data-id="15">Tampilkan Jawaban</button>
+          <div class="answer" id="answer15">a. 10 ms</div>
+        </div>
+        <!-- soal no 16 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">16.</span>
+            <p>
+              pada sistem multiprocessing menjalankan suatu atau lebih Program
+              menggunakan lebih dari satu prosesor. pada soal no 15 apabila
+              menggunakan 2 CPU maka proses P3 akan selesai dalam waktu..
+            </p>
+          </div>
+          <div class="options">
+            <p><span class="label">a.</span>10 ms</p>
+            <p><span class="label">b.</span>12 ms</p>
+            <p><span class="label">c.</span>14 ms</p>
+            <p><span class="label">d.</span>15 ms</p>
+          </div>
+          <button class="show-answer" data-id="16">Tampilkan Jawaban</button>
+          <div class="answer" id="answer16">a. 10 ms</div>
+        </div>
+
+        <!-- soal no 17 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">17.</span>
+            <p>keuntungan menggunakan sistem terdeistrubusi antara lain..</p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span>menjamin critical task dapat
+              diselesaikan tepat pada waktunya
+            </p>
+            <p>
+              <span class="label">b.</span>pemakaian resource secara bersama
+              sama
+            </p>
+            <p>
+              <span class="label">c.</span>memberikan prioritas pada critical
+              task dibanding dengan task yang lainnya
+            </p>
+            <p>
+              <span class="label">d.</span>tiap-tiap prosesor mempunyai sistem
+              operasi yang sama
+            </p>
+          </div>
+          <button class="show-answer" data-id="17">Tampilkan Jawaban</button>
+          <div class="answer" id="answer17">
+            b. pemakaian resource secara bersama sama
+          </div>
+        </div>
+
+        <!-- soal no 18 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">18.</span>
+            <p>alasan mengapa sistem pararel digunakan adalah</p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span>menjamin critical task dapat
+              diselesaikan tepat pada waktunya
+            </p>
+            <p>
+              <span class="label">b.</span>pemaikaian resource secara
+              bersama-sana
+            </p>
+            <p>
+              <span class="label">c.</span>meningkatkan kehandalan (reliability)
+            </p>
+            <p>
+              <span class="label">d.</span>tiap-tiap prosesor mrmpunyai sistem
+              operasi yang sama
+            </p>
+          </div>
+          <button class="show-answer" data-id="18">Tampilkan Jawaban</button>
+          <div class="answer" id="answer18">
+            c. mengingkatkan kehandalan (reliability)
+          </div>
+        </div>
+
+        <!-- soal no 19 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor">19.</span>
+            <p>pada sistem hard real-time berfungsi sebagai..</p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span>tiap-tiap prosesor mempunyai sistem
+              operasi yang sama
+            </p>
+            <p>
+              <span class="label">b.</span>pemakaian resource secara
+              bersama-sama
+            </p>
+            <p>
+              <span class="label">c.</span>meningkatkan kehandalan (reliability)
+            </p>
+            <p>
+              <span class="label">d.</span>menjamin critical task dapat di
+              selesaikan pada waktunya
+            </p>
+          </div>
+          <button class="show-answer" data-id="19">Tampilkan Jawaban</button>
+          <div class="answer" id="answer19">
+            d. menjamin critical task dapat di selesaikan pada waktunya
+          </div>
+        </div>
+
+        <!-- soal no 20 -->
+        <div class="question">
+          <div class="soal-biasa">
+            <span class="nomor"
+              >20. pada sistem soft real-time berfungsi sebagai</span
+            >
+            <p></p>
+          </div>
+          <div class="options">
+            <p>
+              <span class="label">a.</span>tiap-tiap prosesor mempunyai sistem
+              operasi yang sama
+            </p>
+            <p>
+              <span class="label">b.</span>pemaikaian resource secara
+              bersama-sama
+            </p>
+            <p>
+              <span class="label">c.</span>meningkatkan kehandalan (reliability)
+            </p>
+            <p>
+              <span class="label">d.</span>menye tugas kritis berdasarkan
+              priotitas yang lebih tinggi daripada tugas yang lain
+            </p>
+          </div>
+          <button class="show-answer" data-id="20">Tampilkan Jawaban</button>
+          <div class="answer" id="answer20">
+            a. tiap-tiap prosesor mempunyai sistem operasi yang sama
+          </div>
+        </div>
+      </main>
+
+      <!-- ✅ Modul 2 tes formatif 1-2-->
+      <div class="quiz-title">
+        <h2>📘 Modul 2</h2>
+        <p>( Tes Formatif 1- 2 )</p>
+      </div>
+      <a href="/soal/sistem_operasi2.html" class="btn">⬅ Kembali</a>
+    </main>
+    <footer>© M. Hasan AF-2025 | BelajarUT | Bank Soal Interaktif</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
